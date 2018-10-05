@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="@{/pilot/add}">Tambah</a></td>
+
+	<h3>Cari Pilot berdasarkan Nomor Lisensi</h3>
+	<form th:action="@{/pilot/view}" method="GET">License Number:<br>
+		<input type="text" name="licenseNumber"/>
+		<button type="submit">Cari</button>
+	</form>
+</body>
+</html>
